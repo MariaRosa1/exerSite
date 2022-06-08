@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/happy.svg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- navMob--------------------- -->
+    <input type="checkbox"  id="close-menu" class="close-menu"
+     aria-label="Close menu" role="button" name="">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
+    <!-- nav------------------------ -->
+    <aside class="menu">
+        <section class="menu-content">
+            <h2>
+                <p class="p-logo letter-white letter">Logo</p>
+            </h2>
+
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false">
+                    <li><a class="letter-white letter" href="#tela1">Home</a></li>
+                    <li><a class="letter-white letter" href="#tela2">Lorem</a></li>
+                    <li><a class="letter-white letter" href="#tela3">Contact</a></li>
+                    <li><a class="letter-white letter" href="#tela4">Table</a></li>
+                </ul>
+            </nav>
+        </section>
+    </aside>
+
+
+
+    <!-- tela1------------------------ -->
+    <div class="back-dark back" id="tela1">
+        <div class="container">
+            <div class="conta-filho">
+                <h1 class="letter-dark letter">Lorem Ipsum</h1>
+                <p class="letter-dark letter">Quisque lacus orci, elementum efficitur 
+                    risus ac, pellentesque malesuada augue.</p>
+                <p class="letter-dark letter">In non lacinia urna. Nunc diam nisl, placerat non massa quis, 
+                    dapibus ultricies libero.?</p>
+                <p class="letter-dark letter">n sodales est dolor, ut ultrices enim mollis a. 
+                    Class aptent taciti sociosqu ad litora torquent 
+                    per conubia nostra, per inceptos himenaeos. Quisque ut dictum elit, 
+                    id commodo turpis</p>
+            </div>
+
+            <div class="conta-filho">
+                <img src="img/msg.svg" alt="menina com uma caixa de mensagem">
+            </div>
+        </div>
+    </div>
+
+    <!-- tela2------------------------ -->
+    <div class="back" id="tela2">
+        <div class="container2">
+            <div class="conta-filho2">
+                <img class="img-rotacion" src="img/heart.svg" alt="">
+            </div>
+            <div class="conta-filho">
+                <h2 class="letter-white letter">Fusce dictum</h2>
+                <p class="letter-white letter">Quisque lacus orci, elementum efficitur.</p>
+                <p class="letter-white letter"> fames ac turpis egestas.
+                    Nam ornare laoreet tristique. Sed vel libero metus.
+                    Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            <div class="conta-filho2">
+                <img class="img2" src="img/heart.svg" alt="menina segurando um coração">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- tela3------------------------ -->
+    <div class="back-dark back" id="tela3">
+        <div class="container3">
+            <div class="conta-filho">
+                <h2 class="letter-dark letter">Contact</h2>
+                <form action="#">
+                    <fieldset>
+                        <label class=" label letter-dark letter" for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your first name" name="name">
+
+                        <label class=" label letter-dark letter" for="last-name">Last name</label>
+                        <input type="text" id="last-name" placeholder="Your last name" name="last-name">
+
+                        <label class="label letter-dark letter" for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="Your e-mail" name="email">
+
+                        <label class=" label letter-dark letter" for="msg">Message</label>
+                        <textarea name="msg" placeholder="Your message" id="msg" cols="30" rows="10"></textarea>
+
+                        <input type="submit"  class=" sub letter letter-white " value="Send Message"> 
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="conta-filho">
+                <img src="img/message.svg" alt="duas meninas interagindo por meio da internet ">
+            </div>
+        </div>
+    </div>
+
+    <!-- tela4------------------------ -->
+    <div class="back" id="tela4">
+        <div class="container">
+            <div class="conta-filho">
+                <img src="img/sketching.svg" alt="menina estudando">
+            </div>
+
+            <div class="conta-filho">
+                <h2 class=" table letter-white letter">Table</h2>
+                <div class="resposive-table">
+                    <table >
+                        <thead>
+                            <tr class="letter-white letter">
+                             <th>Title 1</th>
+                             <th>Title 2</th>
+                             <th>Title 3</th>
+                            </tr>
+                        </thead>
+     
+                        <tbody>
+                             <tr class="letter-white letter">
+                                 <td >content1</td>
+                                 <td>content2</td>
+                                 <td>content3</td>
+                             </tr>
+                             <tr class="letter-white letter">
+                                 <td>content1</td>
+                                 <td>content2</td>
+                                 <td>content3</td>
+                             </tr>
+                             <tr class="letter-white letter">
+                                 <td>content1</td>
+                                 <td>content2</td>
+                                 <td>content3</td>
+                             </tr>
+                        </tbody>
+                    </table>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+    <footer class="back-dark footer-back back">
+        <p class="letter-dark letter">Project</p>
+        <p class="letter-dark letter">08/06/2022</p>
+    </footer>
+
+</body>
+
+</html>
