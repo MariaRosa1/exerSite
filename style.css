@@ -244,7 +244,7 @@ h2.table{
     }
 
     .close-menu-label::after{
-        content: '☰';
+        content: url(./img/menuSim.svg);
         position: fixed;
         text-align: center;
         z-index: 2;
